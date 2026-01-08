@@ -1,0 +1,23 @@
+{
+  "name": "distributed-rate-limiter",
+  "version": "1.0.0",
+  "description": "A distributed rate limiter using Redis for managing request limits across multiple instances.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "ioredis": "^5.8.2",
+    "rate-limit-redis": "^4.3.1",
+    "rate-limiter-flexible": "^2.0.0",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
